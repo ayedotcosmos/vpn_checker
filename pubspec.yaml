@@ -1,0 +1,37 @@
+name: vpn_checker
+description: VPN Config Verifier for Myanmar Users
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Network
+  http: ^1.1.0
+  
+  # State
+  provider: ^6.1.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Fonts
+  google_fonts: ^6.1.0
+  
+  # Share files
+  share_plus: ^7.2.1
+  
+  # Animations
+  flutter_animate: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
